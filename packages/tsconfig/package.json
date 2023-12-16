@@ -1,0 +1,31 @@
+{
+  "name": "@dwinugroho/tsconfig",
+  "version": "1.0.0",
+  "description": "The typescript config for personal projects",
+  "license": "MIT",
+  "author": "dwinugroho <adwinugroho1@gmail.com> (https://github.com/dwinugroho/)",
+  "homepage": "https://github.com/dwinugroho/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinugroho/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwinugroho/config/issues"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "base.json",
+    "web.json"
+  ],
+  "peerDependencies": {
+    "typescript": "5.x"
+  },
+  "keywords": [
+    "tsconfig",
+    "dwinugroho",
+    "typescript"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

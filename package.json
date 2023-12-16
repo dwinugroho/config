@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "@dwinugroho/config",
+  "version": "0.0.0",
+  "description": "Shared configuration files for personal projects",
+  "license": "MIT",
+  "author": "dwinugroho <adwinugroho1@gmail.com> (https://github.com/dwinugroho/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinugroho/config.git"
+  },
+  "scripts": {
+    "format": "prettier -w ."
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^8.0.1",
+    "prettier": "^3.0.3"
+  },
+  "lint-staged": {
+    "*.{md,js,ts,cjs,mjs}": [
+      "prettier -c"
+    ]
+  },
+  "dependencies": {}
+}

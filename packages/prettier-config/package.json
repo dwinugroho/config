@@ -1,0 +1,41 @@
+{
+  "name": "@dwinugroho/prettier-config",
+  "version": "1.0.0",
+  "description": "The prettier config for personal projects",
+  "license": "MIT",
+  "author": "dwinugroho <adwinugroho1@gmail.com> (https://github.com/dwinugroho/)",
+  "homepage": "https://github.com/dwinugroho/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinugroho/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwinugroho/config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "prettier-plugin-package-perfection": "^1.1.0",
+    "prettier-plugin-sort-json": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7"
+  },
+  "peerDependencies": {
+    "prettier": "3.x"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "dwinugroho"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

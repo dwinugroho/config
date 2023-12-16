@@ -1,0 +1,52 @@
+{
+  "name": "@dwinugroho/eslint-config",
+  "version": "1.0.0",
+  "description": "The eslint config for personal projects",
+  "license": "MIT",
+  "author": "dwinugroho adwinugroho1@gmail.com (https://github.com/dwinugroho/)",
+  "homepage": "https://github.com/dwinugroho/config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwinugroho/config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dwinugroho/config/issues"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-security": "^1.7.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "eslint-plugin-unicorn": "^49.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "8.x"
+  },
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslintconfig",
+    "dwinugroho"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
