@@ -1,19 +1,19 @@
-# config
+# 🛠️ Config
 
-A monorepo containing shared configuration files for personal projects, including ESLint, Prettier and TypeScript configurations.
+A centralized hub for harmonizing configurations across personal projects! 🚀 Dive into the world of seamless development with unified ESLint, Prettier, and TypeScript configurations.
 
-## Packages
+## 📦 Packages
 
-This monorepo includes the following packages:
+Explore the galaxy of configurations in this monorepo:
 
-- [@dwinugroho/eslint-config](./packages/eslint-config)
-- [@dwinugroho/prettier-config](./packages/prettier-config)
-- [@dwinugroho/tsconfig](./packages/tsconfig)
+- 🚦 [@dwinugroho/eslint-config](./packages/eslint-config)
+- 🎨 [@dwinugroho/prettier-config](./packages/prettier-config)
+- 📘 [@dwinugroho/tsconfig](./packages/tsconfig)
 
-## Usage
+## 🚀 Usage
 
-Each package in this monorepo includes its own README file with instructions on how to use it. To use a package, install it using npm OR yarn OR pnpm OR bun, and then follow the instructions in its README.
+Embark on a journey of simplicity! Each package comes with its own README file, guiding you on how to leverage its power. Install with npm, yarn, pnpm, or even bun, and follow the instructions in its README.
 
-## License
+## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+Crafted under the wings of the [MIT License](LICENSE). Let the coding adventure begin! 🚀

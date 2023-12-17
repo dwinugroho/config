@@ -1,10 +1,10 @@
-# @dwinugroho/eslint-config
+# 🚦 @dwinugroho/eslint-config
 
-The ESLint configuration for dwinugroho projects.
+The interstellar ESLint configuration for personal projects. 🌌
 
-## Installation
+🛠️ Installation
 
-Install the package via npm or yarn:
+Install the package via npm, yarn, pnpm, or even bun:
 
 ```bash
 npm install -D @dwinugroho/eslint-config
@@ -16,7 +16,7 @@ pnpm add -D @dwinugroho/eslint-config
 bun install -D @dwinugroho/eslint-config
 ```
 
-## Usage
+## 🚀 Usage
 
 Extend the configuration in your ESLint configuration file:
 
@@ -26,9 +26,9 @@ module.exports = {
 };
 ```
 
-## Configuration
+## ⚙️ Configuration
 
-The configuration includes the following plugins and extends:
+The configuration includes a powerful lineup of plugins and extends:
 
 - eslint:recommended
 - plugin:react/recommended
@@ -46,6 +46,6 @@ The configuration includes the following plugins and extends:
 - simple-import-sort
 - unused-imports
 
-## License
+## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+Crafted under the wings of the [MIT License](LICENSE). Let your code soar! 🚀

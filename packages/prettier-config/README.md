@@ -1,10 +1,10 @@
-# @dwinugroho/prettier-config
+# 🎨 @dwinugroho/prettier-config
 
-The prettier config for personal projects.
+The enchanting Prettier configuration for personal projects. ✨
 
-## Installation
+## 🛠️ Installation
 
-Install the package via npm or yarn:
+Install the package via npm, yarn, pnpm, or even bun:
 
 ```bash
 npm install -D @dwinugroho/prettier-config
@@ -16,9 +16,9 @@ pnpm add -D @dwinugroho/prettier-config
 bun install -D @dwinugroho/prettier-config
 ```
 
-## Usage
+## 🚀 Usage
 
-To use this prettier config, just reference it in your `package.json` file:
+To infuse your project with Prettier magic, reference it in your `package.json` file:
 
 ```json
 {
@@ -28,15 +28,15 @@ To use this prettier config, just reference it in your `package.json` file:
 }
 ```
 
-You can also reference it in your `.prettierrc.js` file:
+Or dance to your own rhythm in your `.prettierrc.js` file:
 
 ```js
 module.exports = "@dwinugroho/prettier-config";
 ```
 
-## Configuration
+## ⚙️ Configuration
 
-This prettier config includes the following settings:
+This Prettier config comes with a treasure trove of settings:
 
 - `arrowParens`: Always include parentheses around a sole arrow function parameter.
 - `singleQuote`: Use single quotes instead of double quotes.
@@ -49,7 +49,7 @@ This prettier config includes the following settings:
   - `prettier-plugin-tailwindcss`: Format Tailwind CSS classes [see more](https://github.com/tailwindlabs/prettier-plugin-tailwindcss).
   - `prettier-plugin-package-perfection`: Format package.json file.
 
-You can modify these settings by creating your own `prettier.config.js` file and extending this config:
+eel free to create your own Prettier symphony by extending this config in your `prettier.config.js`:
 
 ```js
 module.exports = {
@@ -58,6 +58,6 @@ module.exports = {
 };
 ```
 
-## License
+## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+Crafted under the spell of the [MIT License](LICENSE). May your code be ever beautiful! 🌈
