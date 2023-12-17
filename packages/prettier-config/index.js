@@ -1,13 +1,13 @@
 module.exports = {
-  arrowParens: 'always',
+  arrowParens: "always",
   singleQuote: true,
   jsxSingleQuote: true,
   tabWidth: 2,
   semi: false,
-  trailingComma: 'none',
+  trailingComma: "none",
   plugins: [
-    'prettier-plugin-sort-json',
-    'prettier-plugin-tailwindcss',
-    'prettier-plugin-package-perfection'
-  ]
-}
+    "prettier-plugin-sort-json",
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-package-perfection",
+  ],
+};
