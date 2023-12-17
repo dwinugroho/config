@@ -1,6 +1,6 @@
 {
   "name": "@dwinugroho/tsconfig",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The typescript config for personal projects",
   "license": "MIT",
   "author": "dwinugroho <adwinugroho1@gmail.com> (https://github.com/dwinugroho/)",
@@ -21,8 +21,8 @@
     "typescript": "5.x"
   },
   "keywords": [
-    "tsconfig",
     "dwinugroho",
+    "tsconfig",
     "typescript"
   ],
   "publishConfig": {
