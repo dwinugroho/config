@@ -12,19 +12,25 @@
   "scripts": {
     "format": "prettier -w ."
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog-emoji"
+    }
+  },
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "@dwinugroho/prettier-config": "^1.0.1"
-  },
   "devDependencies": {
+    "@dwinugroho/prettier-config": "^1.0.1",
+    "cz-conventional-changelog-emoji": "^0.1.0",
+    "husky": "^8.0.3",
     "lerna": "^8.0.1",
+    "lint-staged": "^15.2.0",
     "prettier": "^3.0.3"
   },
   "lint-staged": {
-    "*.{md,js,ts,cjs,mjs}": [
-      "prettier -c"
+    "**/*.{md,js,ts,cjs,mjs}": [
+      "prettier -c --write"
     ]
   },
   "prettier": "@dwinugroho/prettier-config"

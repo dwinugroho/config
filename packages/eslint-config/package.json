@@ -41,13 +41,13 @@
     "eslint": "^8.53.0"
   },
   "keywords": [
-    "dwinugroho",
     "eslint",
     "eslint-config",
-    "eslintconfig"
+    "eslintconfig",
+    "dwinugroho"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "0d1eb57952e41a2db79d133332462adda1bcbe03"
+  "gitHead": "7b10d0b038f784ffb36e02cb1af1ada91c68aa9b"
 }
